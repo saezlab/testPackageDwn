@@ -15,6 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r, results='asis',echo=FALSE}
+install.packages("htmltools")
 # Include the external HTML file
 htmltools::includeHTML("NCI.html")
 
