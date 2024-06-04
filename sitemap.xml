@@ -10,6 +10,9 @@
     <loc>https://saezlab.github.io/testPackageDwn/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://saezlab.github.io/testPackageDwn/NCI.html</loc>
+  </url>
+  <url>
     <loc>https://saezlab.github.io/testPackageDwn/articles/MOFA_to_COSMOS.html</loc>
   </url>
   <url>
@@ -28,9 +31,9 @@
     <loc>https://saezlab.github.io/testPackageDwn/index.html</loc>
   </url>
   <url>
-    <loc>https://saezlab.github.io/testPackageDwn/reference/index.html</loc>
+    <loc>https://saezlab.github.io/testPackageDwn/mofa.html</loc>
   </url>
   <url>
-    <loc>https://saezlab.github.io/testPackageDwn/tutorial.html</loc>
+    <loc>https://saezlab.github.io/testPackageDwn/reference/index.html</loc>
   </url>
 </urlset>
