@@ -1,0 +1,30 @@
+---
+title: "Vignette Title"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(testPackageDwn)
+library(dplyr)
+```
+
+# Introduction
+this is just a test
+
+
+Let's use the car dataset to illustrate the use of the function `testFunction`:
+
+```{r}
+mtcars %>% head()
+```
