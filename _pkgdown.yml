@@ -11,4 +11,6 @@ navbar:
     - text: My vignette
       href: articles/My_vignette.html
     - text: MOFA to COSMOS
-      href: MOFA_to_COSMOS.html
+      href: mofa.html
+    - text: NCI60
+      href: NCI.html
