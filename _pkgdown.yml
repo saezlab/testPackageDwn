@@ -2,3 +2,13 @@ url: https://saezlab.github.io/testPackageDwn/
 template:
   bootstrap: 5
   assets: pkgdown/assets
+navbar:
+ components:
+   articles:
+    text: Articles
+    menu:
+    - text: Category A
+    - text: My vignette
+      href: articles/My_vignette.html
+    - text: MOFA to COSMOS
+      href: MOFA_to_COSMOS.html
