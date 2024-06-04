@@ -12,7 +12,9 @@ navbar:
       href: articles/My_vignette.html
     - text: Title A2
       href: articles/a2.html
+    - text: assets cosmos
+      href: articles/assets/tutorial.html
     - text: -------
     - text: "Category B"
-    - text: Tutorial link
-      href: https://github.com/saezlab/cosmosR/blob/gh-pages/articles/tutorial.html
+    - text: Tut cosmosR with preview
+      href: https://htmlpreview.github.io/?https://raw.githubusercontent.com/saezlab/cosmosR/gh-pages/articles/tutorial.html
