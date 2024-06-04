@@ -1,0 +1,43 @@
+---
+title: "MOFA to COSMOS tutorial"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{=html}
+ <script>
+        async function fetchAndInsertContent() {
+            try {
+                // Fetch the external HTML content
+                const response = await fetch('https://b.0-0.plus/blog/md.htm?src=https://raw.githubusercontent.com/saezlab/Factor_COSMOS/main/MOFA_to_COSMOS.md');
+                const content = await response.text();
+
+                // Insert the fetched content into the div
+                document.getElementById('embedded-content').innerHTML = content;
+
+                // Optionally, you can manipulate the content here if needed
+            } catch (error) {
+                console.error('Error fetching the content:', error);
+            }
+        }
+
+        // Fetch and insert content on page load
+        window.onload = fetchAndInsertContent;
+    </script>
+
+
+
+
+
+
+```
