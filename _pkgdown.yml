@@ -1,7 +1,7 @@
 url: https://saezlab.github.io/testPackageDwn/
 template:
   bootstrap: 5
-  assets: pkgdown/assets
+  assets: vignettes/MOFA_to_COSMOS_files, vignettes/net_compr_MOON_files
 navbar:
  components:
    articles:
@@ -11,6 +11,6 @@ navbar:
     - text: My vignette
       href: articles/My_vignette.html
     - text: MOFA to COSMOS
-      href: mofa.html
+      href: articles/MOFA_to_COSMOS.html
     - text: NCI60
-      href: NCI.html
+      href: articles/NCI60_tutorial.html
